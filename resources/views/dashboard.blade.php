@@ -164,6 +164,9 @@
                     <x-radio id="left-label" left-label="Label in Left" wire:model.defer="model" />
                     <x-radio id="right-label" label="Label in Right" wire:model.defer="model" />
                 </div>
+                <div class="p-6">
+                    @livewire('user-table')
+                </div>
             </div>
         </div>
     </div>
