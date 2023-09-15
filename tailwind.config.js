@@ -6,7 +6,8 @@ export default {
     darkMode: 'class',
     presets: [
 
-        require('./vendor/wireui/wireui/tailwind.config.js')
+        require('./vendor/wireui/wireui/tailwind.config.js'),
+        require("./vendor/power-components/livewire-powergrid/tailwind.config.js"),
     ],
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
